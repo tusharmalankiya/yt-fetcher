@@ -24,7 +24,7 @@ This is a simple YouTube downloader web application that allows users to downloa
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/tusharmalankiya/yt-fetcher.git
    ```
 
 2. Install dependencies for frontend:
