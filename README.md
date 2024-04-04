@@ -1,4 +1,4 @@
-# YouTube Downloader
+# YT-Fetcher
 
 This is a simple YouTube downloader web application that allows users to download audio and video from YouTube. It consists of a frontend built with React and a backend built with Python.
 
