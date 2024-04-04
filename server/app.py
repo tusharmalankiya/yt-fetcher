@@ -38,7 +38,7 @@ def send_audio():
 
     yt = YouTube(yt_url)
     audio = yt.streams.get_audio_only()
-    out_file = audio.download('./../y2d_client/public/audios/')
+    out_file = audio.download('./../client/public/audios/')
 
     # save the file
     base, ext = os.path.splitext(out_file)
@@ -68,7 +68,7 @@ def get_quality_video():
     
     #download audio
     audio = yt.streams.get_audio_only()
-    audio_filepath = audio.download('./../y2d_client/audios/')
+    audio_filepath = audio.download('./../client/audios/')
     base, ext = os.path.splitext(audio_filepath)
     new_audio_filepath = base + '.mp3'
     try:
@@ -107,7 +107,7 @@ def get_quality_video():
         os.remove(video_file_uname)
 
     data = {
-        "filepath": './../y2d_client/videos/' + video.default_filename,
+        "filepath": './../client/videos/' + video.default_filename,
         "title": yt.title,
         "thumbnail": yt.thumbnail_url
     }
@@ -124,7 +124,7 @@ def get_video():
     youtube = YouTube(video_url)
     video = youtube.streams.get_highest_resolution()
     # print(video)
-    video.download('./../y2d_client/public/videos/')
+    video.download('./../client/public/videos/')
 
     data = {
         "filepath": 'videos/' + video.default_filename,
