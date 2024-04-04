@@ -85,7 +85,7 @@ This is a simple YouTube downloader web application that allows users to downloa
 
 ## Screenshots
 
-   - Image1 
+![Screenshot (172)](https://github.com/tusharmalankiya/yt-fetcher/assets/85736626/486b56d7-88d7-48b8-99bf-32f7d2dde53f)
 
 <!-- ## Notice -->
 
