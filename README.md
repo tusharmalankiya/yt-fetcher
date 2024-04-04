@@ -65,23 +65,22 @@ This is a simple YouTube downloader web application that allows users to downloa
 ## Usage
 
 1. Start the backend server:
-   > [!IMPORTANT]
-   >  Activate the virtual environment if it is not activated.
+   > Activate the virtual environment if it is not activated.
 
    ```bash
    cd server
    python app.py
    ```
 
-2. Start the frontend development server:
+3. Start the frontend development server:
     ```bash
     cd client
     npm start
     ```
 
-3. Open your web browser and navigate to http://localhost:3000 to access the application.
+4. Open your web browser and navigate to http://localhost:3000 to access the application.
 
-4. Paste youtube link and download preferred type of content (either audio or video). 
+5. Paste youtube link and download preferred type of content (either audio or video). 
 
 ## Screenshots
 
